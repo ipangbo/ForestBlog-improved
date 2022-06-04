@@ -10,7 +10,7 @@
 
 源作者地址：https://github.com/saysky/ForestBlog
 
-数据库初始化：
+数据库初始化，新建数据库`huyoudb`：
 ```sql
 create table article_category_ref
 (
