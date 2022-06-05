@@ -40,16 +40,17 @@
             <artifactId>javax.servlet.jsp-api</artifactId>
             <version>2.3.3</version>
         </dependency>
-        <!-- 添加jstl支持 -->
+        <!-- https://mvnrepository.com/artifact/org.apache.taglibs/taglibs-standard-spec -->
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
+            <groupId>org.apache.taglibs</groupId>
+            <artifactId>taglibs-standard-spec</artifactId>
+            <version>1.2.5</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.taglibs/taglibs-standard-impl -->
         <dependency>
-            <groupId>taglibs</groupId>
-            <artifactId>standard</artifactId>
-            <version>1.1.2</version>
+            <groupId>org.apache.taglibs</groupId>
+            <artifactId>taglibs-standard-impl</artifactId>
+            <version>1.2.5</version>
         </dependency>
         <!-- 添加spring支持 -->
         <dependency>
